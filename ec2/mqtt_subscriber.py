@@ -18,7 +18,7 @@ KEY_PATH = "IotCore_v2.private.key"
 DB_HOST = "localhost"
 DB_NAME = "sensores"
 DB_USER = "sensoruser"
-DB_PASSWORD = "miclave123"  # Reemplaza con la verdadera
+DB_PASSWORD = "miclave123"  
 
 def insertar_en_db(payload):
     try:

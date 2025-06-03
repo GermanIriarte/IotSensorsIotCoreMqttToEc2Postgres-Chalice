@@ -1,0 +1,25 @@
+curl localhost:8000/sensors/tempSensor01/events
+curl localhost:8000/sensors
+curl localhost:8000/sensors/tempSensor01/luz
+curl localhost:8000/sensors/tempSensor01/temperatura
+curl localhost:8000/sensors/tempSensor01/humedad
+curl localhost:8000/data/latest
+ 		
+
+
+ver el contenido de api sensores
+
+cd ~/api-sensores
+ls -a .chalice
+nano .chalice/config.json
+
+
+psql -h localhost -U sensoruser -d sensores
+SELECT * FROM temperatura;
+miclave123
+
+entorno virtual
+source venv/bin/actívate
+cd ~/api-sensores
+chalice local
+curl localhost:8000/...
